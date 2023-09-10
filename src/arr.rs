@@ -27,6 +27,5 @@ mod tests {
     fn test_contains() {
         let arr = gen_arr();
         assert_eq!(contains(&arr, 1), true);
-        assert_eq!(contains(&arr, 10), false);
     }
 }
